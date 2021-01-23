@@ -61,7 +61,6 @@ const init = async () => {
     
 	const autoUpdateDocs = require("./helpers/autoUpdateDocs.js");
 	autoUpdateDocs.update(client);
-
 };
 
 init();
